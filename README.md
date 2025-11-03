@@ -15,6 +15,9 @@
 
 # vite-plugin-sitemap-from-routes
 
+[![Node.js build and publish package](https://github.com/hebertcisco/vite-plugin-sitemap-from-routes/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/hebertcisco/vite-plugin-sitemap-from-routes/actions/workflows/npm-publish.yml)
+[![Running Code Coverage](https://github.com/hebertcisco/vite-plugin-sitemap-from-routes/actions/workflows/coverage.yml/badge.svg)](https://github.com/hebertcisco/vite-plugin-sitemap-from-routes/actions/workflows/coverage.yml)
+
 A Vite plugin to generate `sitemap.xml` from your application's routes. This helps improve SEO and ensures your static site or SPA is easily discoverable by search engines.
 
 ## Features
