@@ -13,6 +13,8 @@
   <img src="https://img.shields.io/npm/l/vite-plugin-sitemap-from-routes" alt="licence" />
 </div>
 
+# vite-plugin-sitemap-from-routes
+
 A Vite plugin to generate `sitemap.xml` from your application's routes. This helps improve SEO and ensures your static site or SPA is easily discoverable by search engines.
 
 ## Features
@@ -23,14 +25,19 @@ A Vite plugin to generate `sitemap.xml` from your application's routes. This hel
 
 ## Installation
 
+### Using pnpm
 ```sh
 pnpm add -D vite-plugin-sitemap-from-routes
 ```
 
-or
-
+### Using npm
 ```sh
 npm install --save-dev vite-plugin-sitemap-from-routes
+```
+
+### Using bun
+```sh
+bun add -d vite-plugin-sitemap-from-routes
 ```
 
 ## Usage
