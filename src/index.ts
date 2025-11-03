@@ -1,4 +1,5 @@
-export { Uuid } from './helpers/uuid';
-import uuid from './helpers/uuid';
+import { sitemapPlugin } from './plugin';
+export type { SitemapPluginOptions } from './types';
 
-export default uuid;
+export { sitemapPlugin };
+export default sitemapPlugin;
