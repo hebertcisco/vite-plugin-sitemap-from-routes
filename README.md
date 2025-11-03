@@ -26,16 +26,19 @@ A Vite plugin to generate `sitemap.xml` from your application's routes. This hel
 ## Installation
 
 ### Using pnpm
+
 ```sh
 pnpm add -D vite-plugin-sitemap-from-routes
 ```
 
 ### Using npm
+
 ```sh
 npm install --save-dev vite-plugin-sitemap-from-routes
 ```
 
 ### Using bun
+
 ```sh
 bun add -d vite-plugin-sitemap-from-routes
 ```

@@ -22,7 +22,7 @@ export default defineConfig(() => {
         fileName: 'index',
       },
       rollupOptions: {
-        external: ['fs', 'fs/promises', ...Object.keys(pkg.dependencies)],
+        external: ['fs', 'fs/promises', 'path', ...Object.keys(pkg.dependencies)],
         plugins: [
           visualizer({
             filename: 'reports/build-stats.html',
@@ -34,6 +34,7 @@ export default defineConfig(() => {
           globals: {
             fs: 'fs',
             'fs/promises': 'fsp',
+            path: 'path',
           },
         },
       },

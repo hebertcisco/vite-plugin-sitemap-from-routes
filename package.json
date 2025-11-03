@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-sitemap-from-routes",
-  "version": "1.0.0-beta.01",
+  "version": "1.0.0",
   "author": "hebertcisco <hebert@hotbrains.com.br>",
   "type": "module",
   "files": [
