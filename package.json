@@ -51,10 +51,10 @@
     "prettier-fix": "prettier --log-level warn --cache --cache-strategy content --cache-location ./node_modules/.cache/.prettiercache --write .",
     "eslint-check": "eslint --max-warnings=25 --format=pretty --cache --cache-strategy content --cache-location ./node_modules/.cache/.eslintcache '{**/*,*}.{js,ts}'",
     "eslint-fix": "pnpm eslint-check --fix",
-    "format": "prettier --log-level warn --write .",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "format": "npx prettier --log-level warn --write .",
+    "test": "npx jest",
+    "test:watch": "npx jest --watch",
+    "test:coverage": "npx jest --coverage"
   },
   "dependencies": {
     "ansi-colors": "^4.1.3",
@@ -73,6 +73,7 @@
     "eslint-plugin-promise": "^7.2.1",
     "eslint-plugin-sonarjs": "^3.0.5",
     "globals": "^16.4.0",
+    "jest": "^30.2.0",
     "prettier": "^3.6.2",
     "release-it": "^19.0.5",
     "rimraf": "^6.1.0",
