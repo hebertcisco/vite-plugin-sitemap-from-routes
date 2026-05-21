@@ -31,6 +31,7 @@ export default defineConfig(() => {
           }),
         ],
         output: {
+          exports: 'named',
           globals: {
             fs: 'fs',
             'fs/promises': 'fsp',
